@@ -12,6 +12,15 @@ export const config = {
         username: 'Tenali Ramakrishna',
         gender: 'male',
         status: 'active'
+    },
+    BOOKS_DEV: {
+        host: 'localhost:1010',
+    },
+    BOOKS_STG: {
+        host: 'localhost:2020',
+    },
+    BOOKS_PRD: {
+        host: 'localhost:3030',
     }
 }
 
